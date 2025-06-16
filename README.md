@@ -53,17 +53,10 @@ npm install
 Create a `.env.local` file in the root directory:
 ```env
 # API Configuration
-NEXT_PUBLIC_API_URL=your_api_url
-
-# Authentication
-NEXTAUTH_SECRET=your_secret
-NEXTAUTH_URL=http://localhost:3000
-
-# Database
-MONGODB_URI=your_mongodb_uri
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
 
 # AI Services
-OPENAI_API_KEY=your_openai_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
 4. **Start the development server**
