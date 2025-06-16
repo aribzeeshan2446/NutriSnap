@@ -22,7 +22,6 @@ NutriSnap is a cutting-edge web application that revolutionizes nutritional trac
 ### 🛠️ Technical Features
 - **Real-time Processing**: Instant food recognition and analysis
 - **Responsive Design**: Seamless experience across all devices
-- **Offline Support**: Basic functionality without internet connection
 
 ## 🚀 Tech Stack
 
