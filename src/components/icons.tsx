@@ -1,4 +1,3 @@
-
 import {
   LayoutDashboard,
   ClipboardList,
@@ -58,6 +57,7 @@ export const Icons = {
   Grape: Grape,
   Citrus: Citrus,
   Cherry: Cherry,
+  ClipboardList: ClipboardList,
   // Chat: MessageCircle, // Removed
   // Send: Send, // Removed
 };

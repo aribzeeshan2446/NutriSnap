@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useState } from 'react';
@@ -31,7 +30,7 @@ import { Label } from '@/components/ui/label';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import type { LogEntry } from '@/types';
 import { useToast } from '@/hooks/use-toast';
-import { format, parseISO, startOfWeek, startOfMonth, endOfMonth, endOfWeek, eachDayOfInterval, isSameDay, isWithinInterval } from 'date-fns';
+import { format, parseISO, startOfWeek, startOfMonth, endOfMonth, endOfWeek, eachDayOfInterval, isSameDay, isWithinInterval, type Interval } from 'date-fns';
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, XAxis, YAxis, Tooltip as ChartTooltip } from 'recharts';
 import { ChartConfig, ChartContainer, ChartTooltipContent } from '@/components/ui/chart';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
