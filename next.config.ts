@@ -18,6 +18,19 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Configure development overlay
+
+  devIndicators: false,
+
+  // Configure development overlay position
+  experimental: {
+    disableOptimizedLoading: true,
+    disablePostcssPresetEnv: true,
+  },
+  onDemandEntries: {
+    maxInactiveAge: 25 * 1000,
+    pagesBufferLength: 2,
+  },
 };
 
 export default nextConfig;

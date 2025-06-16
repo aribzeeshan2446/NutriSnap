@@ -1,7 +1,69 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Position Next.js development overlay */
+#__next-build-watcher {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 9999 !important;
+}
+
+/* Hide Next.js development overlay */
+#__next-prerender-indicator,
+[data-nextjs-dialog-overlay],
+[data-nextjs-toast],
+[data-nextjs-dialog],
+[data-nextjs-dialog-content],
+[data-nextjs-dialog-backdrop],
+[data-nextjs-dialog-close],
+[data-nextjs-dialog-title],
+[data-nextjs-dialog-description],
+[data-nextjs-dialog-actions],
+[data-nextjs-dialog-action],
+[data-nextjs-dialog-cancel],
+[data-nextjs-dialog-confirm],
+[data-nextjs-dialog-dismiss],
+[data-nextjs-dialog-overlay],
+[data-nextjs-dialog-overlay-backdrop],
+[data-nextjs-dialog-overlay-content],
+[data-nextjs-dialog-overlay-close],
+[data-nextjs-dialog-overlay-title],
+[data-nextjs-dialog-overlay-description],
+[data-nextjs-dialog-overlay-actions],
+[data-nextjs-dialog-overlay-action],
+[data-nextjs-dialog-overlay-cancel],
+[data-nextjs-dialog-overlay-confirm],
+[data-nextjs-dialog-overlay-dismiss],
+[data-nextjs-toast-container],
+[data-nextjs-toast-content],
+[data-nextjs-toast-close],
+[data-nextjs-toast-title],
+[data-nextjs-toast-description],
+[data-nextjs-toast-actions],
+[data-nextjs-toast-action],
+[data-nextjs-toast-cancel],
+[data-nextjs-toast-confirm],
+[data-nextjs-toast-dismiss],
+[data-nextjs-toast-overlay],
+[data-nextjs-toast-overlay-backdrop],
+[data-nextjs-toast-overlay-content],
+[data-nextjs-toast-overlay-close],
+[data-nextjs-toast-overlay-title],
+[data-nextjs-toast-overlay-description],
+[data-nextjs-toast-overlay-actions],
+[data-nextjs-toast-overlay-action],
+[data-nextjs-toast-overlay-cancel],
+[data-nextjs-toast-overlay-confirm],
+[data-nextjs-toast-overlay-dismiss] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  z-index: -9999 !important;
+}
 
 body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
