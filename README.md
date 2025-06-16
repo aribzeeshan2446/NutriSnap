@@ -22,7 +22,6 @@ NutriSnap is a cutting-edge web application that revolutionizes nutritional trac
 ### 🛠️ Technical Features
 - **Real-time Processing**: Instant food recognition and analysis
 - **Responsive Design**: Seamless experience across all devices
-- **Secure Authentication**: Protected user data and privacy
 - **Offline Support**: Basic functionality without internet connection
 
 ## 🚀 Tech Stack
@@ -32,9 +31,6 @@ NutriSnap is a cutting-edge web application that revolutionizes nutritional trac
 - **Styling**: Tailwind CSS with Shadcn UI components
 - **AI Integration**: Google Gemini (Gemini 2.0 Flash) via Genkit
 - **State Management**: React Context + Custom Hooks
-- **Authentication**: NextAuth.js
-- **Database**: MongoDB
-- **Deployment**: Vercel
 
 ## 📦 Installation
 
@@ -109,7 +105,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Next.js team for the amazing framework
-- Vercel for hosting and AI capabilities
 - All contributors who have helped shape this project
 
 ## 📞 Support
