@@ -14,14 +14,14 @@ NutriSnap is a cutting-edge web application that revolutionizes nutritional trac
 ## ✨ Features
 
 ### 🎯 Core Features
-- **AI-Powered Food Recognition**: Instantly identify food items from photos
-- **Detailed Nutritional Analysis**: Get comprehensive breakdown of calories, macros, and micronutrients
-- **Personalized Tracking**: Monitor your daily nutritional goals and progress
-- **Smart Recommendations**: Receive AI-driven suggestions for balanced meals
+- **AI-Powered Food Recognition**: Instantly identify food items from photos using Google Gemini (Gemini 2.0 Flash) via Genkit.
+- **Detailed Nutritional Analysis**: Get comprehensive breakdown of calories, macros, and micronutrients.
+- **Personalized Tracking**: Monitor your daily nutritional goals and progress (currently in development).
+- **Smart Recommendations**: Receive AI-driven suggestions for balanced meals (currently in development).
 
 ### 🛠️ Technical Features
-- **Real-time Processing**: Instant food recognition and analysis
-- **Responsive Design**: Seamless experience across all devices
+- **Real-time Processing**: Instant food recognition and analysis.
+- **Responsive Design**: Seamless experience across all devices.
 
 ## 🚀 Tech Stack
 
