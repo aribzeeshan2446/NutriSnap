@@ -16,8 +16,8 @@ NutriSnap is a cutting-edge web application that revolutionizes nutritional trac
 ### 🎯 Core Features
 - **AI-Powered Food Recognition**: Instantly identify food items from photos using Google Gemini (Gemini 2.0 Flash) via Genkit.
 - **Detailed Nutritional Analysis**: Get comprehensive breakdown of calories, macros, and micronutrients.
-- **Personalized Tracking**: Monitor your daily nutritional goals and progress (currently in development).
-- **Smart Recommendations**: Receive AI-driven suggestions for balanced meals (currently in development).
+- **Personalized Tracking**: Monitor your daily nutritional goals and progress 
+- **Daily Progress & Activity Overview**: Visualize your daily calorie intake, progress toward your goal, and recent meal entries with nutritional breakdowns.
 
 ### 🛠️ Technical Features
 - **Real-time Processing**: Instant food recognition and analysis.
@@ -99,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Arib Zeeshan** - *Initial work* - [GitHub Profile](https://github.com/aribzeeshan2446)
+- **Arib Zeeshan** - [GitHub Profile](https://github.com/aribzeeshan2446)
 
 ## 🙏 Acknowledgments
 
@@ -111,8 +111,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you need help or have questions:
 - Open an issue in the repository
 - Contact the maintainers
-- Join our community discussions
-
 ---
 
 <div align="center">
