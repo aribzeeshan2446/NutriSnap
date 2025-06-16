@@ -27,3 +27,51 @@ export interface UserSettings {
   dailyFatGoal?: number;
 }
 
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  image?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface FoodItem {
+  id: string;
+  name: string;
+  calories: number;
+  protein: number;
+  carbs: number;
+  fat: number;
+  imageUrl?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface Meal {
+  id: string;
+  userId: string;
+  foodItems: FoodItem[];
+  totalCalories: number;
+  mealType: 'breakfast' | 'lunch' | 'dinner' | 'snack';
+  date: Date;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface NutritionalGoals {
+  userId: string;
+  dailyCalories: number;
+  protein: number;
+  carbs: number;
+  fat: number;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface ApiResponse<T> {
+  success: boolean;
+  data?: T;
+  error?: string;
+}
+

@@ -1,52 +1,133 @@
 # NutriSnap 🥗
 
-NutriSnap is a modern web application built with Next.js that helps users track and analyze their nutritional intake through image recognition and AI-powered food analysis.
+<div align="center">
 
-## Features
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-- 📸 Food image recognition
-- 📊 Nutritional analysis
-- 🎯 Daily nutrition tracking
-- 📱 Responsive design
-- 🔒 Secure user authentication
+</div>
 
-## Tech Stack
+NutriSnap is a cutting-edge web application that revolutionizes nutritional tracking through AI-powered image recognition. Built with modern web technologies, it helps users make informed decisions about their diet and health.
 
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- Shadcn UI
-- Vercel AI SDK
+## ✨ Features
 
-## Getting Started
+### 🎯 Core Features
+- **AI-Powered Food Recognition**: Instantly identify food items from photos
+- **Detailed Nutritional Analysis**: Get comprehensive breakdown of calories, macros, and micronutrients
+- **Personalized Tracking**: Monitor your daily nutritional goals and progress
+- **Smart Recommendations**: Receive AI-driven suggestions for balanced meals
 
-1. Clone the repository:
+### 🛠️ Technical Features
+- **Real-time Processing**: Instant food recognition and analysis
+- **Responsive Design**: Seamless experience across all devices
+- **Secure Authentication**: Protected user data and privacy
+- **Offline Support**: Basic functionality without internet connection
+
+## 🚀 Tech Stack
+
+- **Frontend Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with Shadcn UI components
+- **AI Integration**: Vercel AI SDK
+- **State Management**: React Context + Custom Hooks
+- **Authentication**: NextAuth.js
+- **Database**: MongoDB
+- **Deployment**: Vercel
+
+## 📦 Installation
+
+1. **Clone the repository**
 ```bash
 git clone https://github.com/aribzeeshan2446/NutriSnap.git
 cd NutriSnap
 ```
 
-2. Install dependencies:
+2. **Install dependencies**
 ```bash
 npm install
 ```
 
-3. Create a `.env.local` file in the root directory and add your environment variables:
+3. **Set up environment variables**
+Create a `.env.local` file in the root directory:
 ```env
+# API Configuration
 NEXT_PUBLIC_API_URL=your_api_url
+
+# Authentication
+NEXTAUTH_SECRET=your_secret
+NEXTAUTH_URL=http://localhost:3000
+
+# Database
+MONGODB_URI=your_mongodb_uri
+
+# AI Services
+OPENAI_API_KEY=your_openai_key
 ```
 
-4. Run the development server:
+4. **Start the development server**
 ```bash
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. **Open your browser**
+Visit [http://localhost:3000](http://localhost:3000)
 
-## Contributing
+## 🏗️ Project Structure
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+```
+NutriSnap/
+├── src/
+│   ├── app/              # Next.js app directory
+│   ├── components/       # Reusable UI components
+│   ├── lib/             # Utility functions and configurations
+│   ├── hooks/           # Custom React hooks
+│   └── types/           # TypeScript type definitions
+├── public/              # Static assets
+└── tests/              # Test files
+```
 
-## License
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+### Development Guidelines
+- Follow the TypeScript and ESLint configurations
+- Write meaningful commit messages
+- Add tests for new features
+- Update documentation as needed
+
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- **Arib Zeeshan** - *Initial work* - [GitHub Profile](https://github.com/aribzeeshan2446)
+
+## 🙏 Acknowledgments
+
+- Next.js team for the amazing framework
+- Vercel for hosting and AI capabilities
+- All contributors who have helped shape this project
+
+## 📞 Support
+
+If you need help or have questions:
+- Open an issue in the repository
+- Contact the maintainers
+- Join our community discussions
+
+---
+
+<div align="center">
+Made with ❤️ by the NutriSnap Team
+</div>
