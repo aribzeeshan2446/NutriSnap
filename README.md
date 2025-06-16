@@ -30,7 +30,7 @@ NutriSnap is a cutting-edge web application that revolutionizes nutritional trac
 - **Frontend Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS with Shadcn UI components
-- **AI Integration**: Vercel AI SDK
+- **AI Integration**: Google Gemini (Gemini 2.0 Flash) via Genkit
 - **State Management**: React Context + Custom Hooks
 - **Authentication**: NextAuth.js
 - **Database**: MongoDB
