@@ -18,7 +18,7 @@ export interface UserSettings {
   age?: number;
   weight?: number; // in kg
   height?: number; // in cm
-  gender?: 'male' | 'female' | 'other';
+  gender?: 'male' | 'female';
   activityLevel?: 'sedentary' | 'light' | 'moderate' | 'active' | 'very_active';
   dailyCalorieGoal?: number;
   // Add other macronutrient goals if needed

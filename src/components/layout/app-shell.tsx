@@ -1,4 +1,3 @@
-
 'use client'; // Make AppShell a client component to use hooks
 
 import type { PropsWithChildren } from 'react';
@@ -30,13 +29,15 @@ export function AppShell({ children }: PropsWithChildren) {
       </main>
       {/* ElevenLabs Convai Widget */}
       <elevenlabs-convai 
-        agent-id="agent_01jxdg4xh2fa5994v9qe3wbb5g"
-        data-theme={theme} // Continue passing data-theme as it's a common practice
-        style={widgetStyle} // Apply inline CSS custom properties
+        agent-id="agent_01jxyjjvykfm6v7ffjmwhn9t8d"
+        data-theme={theme}
+        style={widgetStyle}
       ></elevenlabs-convai>
       <Script 
         src="https://unpkg.com/@elevenlabs/convai-widget-embed" 
-        strategy="afterInteractive" 
+        strategy="afterInteractive"
+        async
+        type="text/javascript"
       />
       {/* Optional: Footer component could go here */}
     </div>

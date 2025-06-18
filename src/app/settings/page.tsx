@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useEffect } from 'react';
@@ -14,7 +13,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
 const activityLevels: UserSettings['activityLevel'][] = ['sedentary', 'light', 'moderate', 'active', 'very_active'];
-const genders: UserSettings['gender'][] = ['male', 'female', 'other'];
+const genders: UserSettings['gender'][] = ['male', 'female'];
 
 
 export default function SettingsPage() {

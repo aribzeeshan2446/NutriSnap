@@ -1,4 +1,3 @@
-
 'use client';
 
 import type { Metadata } from 'next';
@@ -73,15 +72,24 @@ export default function RootLayout({
             </div>
           </div>
         )}
-        {!clientHasMounted ? (
-          null
-        ) : showIntro ? (
-          <IntroAnimation duration={INTRO_DURATION} onComplete={handleIntroComplete} />
-        ) : (
-          <Providers>
-            <AppShell>{children}</AppShell>
-          </Providers>
+        
+        {/* Always render the main interface, but control visibility */}
+        {clientHasMounted && (
+          <div className={cn(
+            "transition-opacity duration-500 ease-in-out",
+            showIntro ? "opacity-0 pointer-events-none" : "opacity-100"
+          )}>
+            <Providers>
+              <AppShell>{children}</AppShell>
+            </Providers>
+          </div>
         )}
+        
+        {/* Render intro animation on top when needed */}
+        {clientHasMounted && showIntro && (
+          <IntroAnimation duration={INTRO_DURATION} onComplete={handleIntroComplete} />
+        )}
+        
         {clientHasMounted && <Toaster />}
       </body>
     </html>
