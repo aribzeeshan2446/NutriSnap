@@ -43,3 +43,7 @@ firebase-debug.log
 firestore-debug.log
 
 env.txt
+
+# Copies
+.next - Copy/
+.vscode - Copy/
