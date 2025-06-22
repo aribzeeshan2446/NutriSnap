@@ -50,8 +50,6 @@ export default function RootLayout({
       <body className={bodyClassName}>
         {clientHasMounted && (
           <div className="animated-bg-container fixed inset-0 -z-10 overflow-hidden">
-            <div className="blob-1"></div>
-            <div className="blob-2"></div>
             <div className="blob-3"></div>
             <div className="particle-container">
               {Array.from({ length: 30 }).map((_, i) => (
