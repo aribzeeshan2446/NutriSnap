@@ -119,9 +119,9 @@ body {
     --sidebar-ring: hsl(var(--ring));
 
     /* Animated background specific colors for Light Theme */
-    --blob-color-1: hsla(var(--primary), 0.35);
-    --blob-color-2: hsla(var(--accent), 0.3);
-    --blob-color-3: hsla(190, 60%, 45%, 0.3);
+    --blob-color-1: hsla(var(--primary), 0.28);
+    --blob-color-2: hsla(var(--accent), 0.24);
+    --blob-color-3: hsla(190, 60%, 45%, 0.22);
     --particle-color: hsla(var(--foreground), 0.5);
   }
 
@@ -186,10 +186,10 @@ body {
     --card-bg-color: hsl(var(--card));
     --card-text-color: hsl(var(--card-foreground));
 
-    /* Animated background specific colors for Dark Theme - INCREASED OPACITY */
-    --blob-color-1: hsla(var(--primary), 0.7);
-    --blob-color-2: hsla(var(--accent), 0.65);
-    --blob-color-3: hsla(180, 70%, 60%, 0.65);
+    /* Animated background specific colors for Dark Theme - MODERATE OPACITY */
+    --blob-color-1: hsla(var(--primary), 0.48);
+    --blob-color-2: hsla(var(--accent), 0.42);
+    --blob-color-3: hsla(180, 70%, 60%, 0.36);
     --particle-color: hsla(var(--foreground), 0.5);
   }
 }
