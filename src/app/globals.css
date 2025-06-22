@@ -260,7 +260,7 @@ body {
   left: 10%;
   top: 10%;
   background-color: var(--blob-color-1);
-  animation: float-blob-1 25s infinite ease-in-out alternate;
+  animation: float-blob-1 12.5s infinite ease-in-out alternate;
 }
 
 .blob-2 {
@@ -273,7 +273,7 @@ body {
   right: 5%;
   top: 30%;
   background-color: var(--blob-color-2);
-  animation: float-blob-2 30s infinite ease-in-out alternate;
+  animation: float-blob-2 15s infinite ease-in-out alternate;
   animation-delay: -5s;
 }
 
@@ -287,7 +287,7 @@ body {
   left: 25%;
   bottom: 5%;
   background-color: var(--blob-color-3);
-  animation: float-blob-3 20s infinite ease-in-out alternate;
+  animation: float-blob-3 10s infinite ease-in-out alternate;
   animation-delay: -10s;
 }
 
