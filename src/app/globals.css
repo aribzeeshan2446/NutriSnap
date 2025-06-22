@@ -71,33 +71,33 @@ body {
 
 @layer base {
   :root { /* Light Theme */
-    --background: 240 30% 96%;
-    --foreground: 260 50% 15%;
+    --background: 220 30% 98%;
+    --foreground: 220 60% 15%;
 
-    --card: 240 30% 98%;
-    --card-foreground: 260 50% 15%;
+    --card: 220 30% 100%;
+    --card-foreground: 220 60% 15%;
 
-    --popover: 240 30% 98%;
-    --popover-foreground: 260 50% 15%;
+    --popover: 220 30% 100%;
+    --popover-foreground: 220 60% 15%;
 
-    --primary: 265 75% 50%;
+    --primary: 210 90% 56%; /* Lighter Blue */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 25% 92%;
-    --secondary-foreground: 265 65% 30%;
+    --secondary: 210 25% 92%;
+    --secondary-foreground: 210 65% 30%;
 
-    --muted: 240 20% 90%;
-    --muted-foreground: 260 30% 40%;
+    --muted: 210 20% 90%;
+    --muted-foreground: 220 30% 40%;
 
-    --accent: 285 70% 50%;
+    --accent: 200 100% 50%; /* Lighter Blue */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 20% 88%;
-    --input: 240 25% 95%;
-    --ring: 265 85% 60%;
+    --border: 210 20% 88%;
+    --input: 210 25% 95%;
+    --ring: 210 90% 60%;
 
     --radius: 0.5rem;
 
@@ -109,13 +109,13 @@ body {
     --chart-5: 45 70% 50%;
 
     /* Sidebar specific colors - themed */
-    --sidebar-background: 240 28% 95%;
+    --sidebar-background: 220 28% 97%;
     --sidebar-foreground: hsl(var(--foreground));
     --sidebar-primary: hsl(var(--primary));
     --sidebar-primary-foreground: hsl(var(--primary-foreground));
     --sidebar-accent: hsl(var(--accent));
     --sidebar-accent-foreground: hsl(var(--accent-foreground));
-    --sidebar-border: 240 20% 87%;
+    --sidebar-border: 210 20% 87%;
     --sidebar-ring: hsl(var(--ring));
 
     /* Animated background specific colors for Light Theme */
@@ -126,13 +126,13 @@ body {
   }
 
   .dark {
-    --background: 220 20% 5%;
+    --background: 220 20% 8%;
     --foreground: 220 15% 95%;
 
-    --card: 220 20% 9%;
+    --card: 220 20% 12%;
     --card-foreground: 220 15% 95%;
 
-    --popover: 220 20% 4%;
+    --popover: 220 20% 10%;
     --popover-foreground: 220 15% 95%;
 
     --primary: 265 80% 68%;
