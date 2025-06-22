@@ -49,9 +49,6 @@ npm install
 Create a `.env.local` file in the root directory:
 ```env
 # API Configuration
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-
-# AI Services
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
