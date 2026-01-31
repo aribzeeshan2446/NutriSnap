@@ -1,4 +1,4 @@
-# NutriSnap 🥗
+# NutriSnap 
 
 <div align="center">
 
