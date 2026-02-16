@@ -1,7 +1,5 @@
 # NutriSnap 
 
-
-
 <div align="center">
 
 
