@@ -98,19 +98,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Authors
 
 - **Arib Zeeshan** - [GitHub Profile](https://github.com/aribzeeshan2446)
-
-## 🙏 Acknowledgments
-
-- Next.js team for the amazing framework
-- All contributors who have helped shape this project
-
-## 📞 Support
-
-If you need help or have questions:
-- Open an issue in the repository
-- Contact the maintainers
----
-
-<div align="center">
-Made with ❤️ by the NutriSnap Team
-</div>
